@@ -1,18 +1,16 @@
-# mountains-admin
+# Школа Loftschool
+## Курс "ПРОДВИНУТЫЙ ВЕБ"
+### ДЗ 1. Начало верстки. Выполнено.
+### ДЗ 2. Вёрстка 4х страниц. Выполнено.
+### ДЗ 3. Адаптивная вёрстка. Анимации. Выполнено.
+### ДЗ 4. Базовый JavaScript. Часть 1. Выполнено.
+### ДЗ 4. Базовый JavaScript. Часть 2. В процессе.
 
-> A Vue.js project
+**Студент**: Суров Константин
 
-## Build Setup
+**Наставник**: Александр Собакарь
 
-``` bash
-# install dependencies
-npm install
+**Ссылка на репозиторий**: https://github.com/surov-kostya/mountains-src.git
 
-# serve with hot reload at localhost:8080
-npm run dev
+**Ссылка на сайт**:  https://surov-kostya.github.io/mountains/
 
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
