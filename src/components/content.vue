@@ -1,6 +1,8 @@
 <template lang="pug">
   main
     app-about
+    app-blog
+    app-works
 </template>
 <style lang="scss" src="styles/content.scss">
 </style>
@@ -11,7 +13,9 @@
 
 export default {
   components: {
-    appAbout: require('./about')
+    appAbout: require('./about'),
+    appBlog: require('./blog'),
+    appWorks: require('./works')
   }
 }
 
