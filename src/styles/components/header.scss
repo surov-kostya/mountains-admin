@@ -4,5 +4,19 @@ header {
   flex-basis: 80px;
   display:flex;
   justify-content: space-between;
+}
 
+.header__title{
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__link{
+  color: rgba(white, .7);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
 }

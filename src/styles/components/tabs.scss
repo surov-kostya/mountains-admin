@@ -1,14 +1,33 @@
 .tabs{
   flex-basis: 60px;
+  background-color:$beige;
 }
 
 .tabs__list{
   display:flex;
-
 }
 
 .tabs__item{
   width:180px;
-  height: 60px;
+  line-height: 60px;
+  text-align:center;
   border-right: 2px solid white;
+  background-color:transparent;
+
+  &_active{
+    background-color:white;
+    
+    .tabs__btn{
+      color:$green;
+    }
+  }
+}
+
+.tabs__btn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: $gray;
 }

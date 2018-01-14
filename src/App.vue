@@ -6,6 +6,7 @@
       app-tabs
     .content
       app-content
+        app-about
 
 </template>
 
