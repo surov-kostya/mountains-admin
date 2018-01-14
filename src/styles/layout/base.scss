@@ -1,0 +1,22 @@
+html, body{
+  min-height: 100%;
+}
+
+.app{
+  height:100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
