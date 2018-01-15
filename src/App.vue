@@ -3,10 +3,9 @@
     .header
       app-header
     .tabs
-      app-tabs
+      app-tabs(@tabClick="tabClick")
     .content
-      app-content
-        app-about
+      app-content(:section="curTab")
 
 </template>
 
@@ -17,6 +16,16 @@ export default {
     appHeader: require('./components/header'),
     appTabs: require('./components/tabs'),
     appContent: require('./components/content')
+  },
+  data(){
+    return{
+      curTab: 'TAB 1'
+    }
+  },
+  methods: {
+    tabClick(tab){
+      this.curTab = tab      
+    }
   }
 }
 
